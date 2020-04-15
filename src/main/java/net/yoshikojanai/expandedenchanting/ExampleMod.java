@@ -1,4 +1,4 @@
-package net.fabricmc.example;
+package net.yoshikojanai.expandedenchanting;
 
 import net.fabricmc.api.ModInitializer;
 
