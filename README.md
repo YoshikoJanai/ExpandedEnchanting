@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Expanded Enchanting
 
-## Setup
+I've always loved Minecraft Enchanting, but the endgame for enchanting is pretty easy to achieve.
+What would happen if those 80 levels could be put into an enchantment? I aim to find out, while learning about Fabric Modding.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
 
-## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+
