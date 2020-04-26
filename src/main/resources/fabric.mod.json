@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.yoshikojanai.expandedenchanting.ExampleMod"
+      "net.yoshikojanai.expandedenchanting.ExpandedEnchanting"
     ]
   },
   "mixins": [
