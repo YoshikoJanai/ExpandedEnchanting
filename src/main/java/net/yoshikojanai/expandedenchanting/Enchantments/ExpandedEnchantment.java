@@ -17,16 +17,6 @@ public class ExpandedEnchantment extends Enchantment {
         Two,
         Three
     }
-    boolean treasure = false;
-    boolean curse = false;
-    boolean relic = false;
-    Weight weight = Weight.COMMON;
-    int minLvl = 1;
-    int maxLvl = 1;
-
-    Tier enchantmentTier = Tier.Vanilla;
-
-
 
     protected ExpandedEnchantment(Weight weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {
         super(weight, type, slotTypes);
@@ -34,11 +24,11 @@ public class ExpandedEnchantment extends Enchantment {
 
     public Tier getEnchantmentTier(){
         
-        return enchantmentTier;
+        return Tier.Vanilla;
     }
 
     public boolean isRelic(){
-        return relic;
+        return false;
     }
 
     @Override
@@ -48,17 +38,17 @@ public class ExpandedEnchantment extends Enchantment {
 
     @Override
     public Weight getWeight() {
-        return weight;
+        return Weight.COMMON;
     }
 
     @Override
     public int getMinimumLevel() {
-        return minLvl;
+        return 1;
     }
 
     @Override
     public int getMaximumLevel() {
-        return maxLvl;
+        return 1;
     }
 
     @Override
@@ -78,11 +68,11 @@ public class ExpandedEnchantment extends Enchantment {
 
     @Override
     public boolean isTreasure() {
-        return treasure;
+        return false;
     }
 
     @Override
     public boolean isCursed() {
-        return curse;
+        return false;
     }
 }
