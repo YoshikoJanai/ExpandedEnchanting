@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import java.util.Map;
 
 public class ExplosiveBowEnchant extends ExpandedEnchantment {
-    protected ExplosiveBowEnchant(Weight weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {
+    protected ExplosiveBowEnchant(Rarity weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {
         super(weight, type, slotTypes);
     }
 

@@ -18,7 +18,7 @@ public class ExpandedEnchantment extends Enchantment {
         Three
     }
 
-    protected ExpandedEnchantment(Weight weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {
+    protected ExpandedEnchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot[] slotTypes) {
         super(weight, type, slotTypes);
     }
 
@@ -36,25 +36,25 @@ public class ExpandedEnchantment extends Enchantment {
         return super.getEquipment(livingEntity);
     }
 
-    @Override
-    public Weight getWeight() {
-        return Weight.COMMON;
+
+    public Rarity getWeight() {
+        return Rarity.COMMON;
     }
 
-    @Override
+
     public int getMinimumLevel() {
         return 1;
     }
 
-    @Override
+
     public int getMaximumLevel() {
         return 1;
     }
 
-    @Override
-    protected boolean differs(Enchantment other) {
-        return super.differs(other);
-    }
+    //@Override
+    //protected boolean differs(Enchantment other) {
+    //    return super.differs(other);
+    //}
 
     @Override
     public Text getName(int level) {
