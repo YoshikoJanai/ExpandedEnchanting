@@ -36,25 +36,30 @@ public class ExpandedEnchantment extends Enchantment {
         return super.getEquipment(livingEntity);
     }
 
-
-    public Rarity getWeight() {
+    @Override
+    public Rarity getRarity() {
         return Rarity.COMMON;
     }
 
-
-    public int getMinimumLevel() {
-        return 1;
+    @Override
+    public int getMinLevel() {
+        return super.getMinLevel();
     }
 
-
-    public int getMaximumLevel() {
-        return 1;
+    @Override
+    public int getMaxLevel() {
+        return super.getMaxLevel();
     }
 
-    //@Override
-    //protected boolean differs(Enchantment other) {
-    //    return super.differs(other);
-    //}
+    @Override
+    public int getMinPower(int level) {
+        return super.getMinPower(level);
+    }
+
+    @Override
+    public int getMaxPower(int level) {
+        return super.getMaxPower(level);
+    }
 
     @Override
     public Text getName(int level) {
